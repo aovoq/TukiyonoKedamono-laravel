@@ -1,0 +1,550 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #1e1e1e;
+   color: #babdbf;
+}
+
+ul {
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* Welcome to Underground */
+
+.container {
+   width: 100%;
+   max-width: 10;
+}
+
+.header {
+   height: 800px;
+   background: url('../img/top.JPG') center center / cover;
+   display: flex;
+   flex-direction: column;
+}
+
+.header.event {
+   background: url('../img/event.png') center center / cover;
+}
+
+.header.menu {
+   background: url('../img/menu.png') center center / cover;
+}
+
+.header.contact {
+   background: url('../img/contact.png') center center / cover;
+}
+
+.header__nav {
+   background: rgba(38, 38, 38, 0.5);
+   height: 70px;
+   font-family: Arial Black, Helvetica, sans-serif;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 18px;
+   color: #babdbf;
+}
+
+.header__nav--wrapper {
+   padding: 0 50px;
+   height: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 77px;
+}
+
+.header__nav--wrapper li img {
+   width: 35px;
+}
+
+.header__logo {
+   flex: 1;
+   display: grid;
+   place-items: center;
+}
+
+.header__logo--image {
+   color: #babdbf;
+   width: 600px;
+}
+
+.viewmore {
+   max-width: 83%;
+   margin: 0 auto;
+   text-align: right;
+}
+
+.viewmore a {
+   font-family: 'Noto Sans';
+   font-size: 25px;
+   border-bottom: 3px solid #babdbf;
+   padding-bottom: 5px;
+   padding-left: 20px;
+   transition: 0.3s;
+}
+
+.viewmore a:hover {
+   padding-left: 100px;
+}
+
+/*ここからアバウト*/
+.top__about {
+   max-width: 83%;
+   margin: 200px auto;
+   padding: 0;
+}
+
+.about__head {
+   font-size: 100px;
+   font-family: Arial Black, Helvetica, sans-serif;
+   font-weight: 900;
+   line-height: 1;
+}
+
+.about__head--sub {
+   font-family: Arial Black, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 35px;
+}
+
+.about__desc {
+   font-size: 18px;
+   line-height: 250%;
+   margin-top: 50px;
+}
+
+.about__photo {
+   margin-top: 45px;
+   display: flex;
+   max-width: 378px;
+}
+
+.about__using--list {
+   display: flex;
+   margin-top: 91.75px;
+   width: 1282px;
+}
+
+.about__using--list--box {
+   margin-right: 30px;
+}
+
+.about__using--list--box:last-child {
+   margin-right: 0;
+}
+
+.about__using--list--image--box {
+   margin-left: 28px;
+}
+
+/*アイコンの位置調整*/
+.about__using--list--image--consent {
+   position: absolute;
+   margin-left: 24px;
+   margin-top: 21px;
+}
+
+.about__using--list--image--WiFi {
+   position: absolute;
+   margin-left: 23px;
+   margin-top: 18px;
+}
+
+.about__using--list--image--karaoke {
+   position: absolute;
+   margin-left: 26px;
+   margin-top: 12px;
+}
+
+.about__using--list--image--guitar {
+   position: absolute;
+   margin-left: 23px;
+   margin-top: 8px;
+}
+
+.about__using--list--image--keyboard {
+   position: absolute;
+   margin-left: 19px;
+   margin-top: 23px;
+}
+
+.about__using--list--image--fooddrink {
+   position: absolute;
+   margin-left: 25px;
+   margin-top: 10px;
+}
+
+.about__using--list--image--freedrink {
+   position: absolute;
+   margin-left: 26px;
+   margin-top: 12px;
+}
+
+.about__using--list--image--projector {
+   position: absolute;
+   margin-left: 21px;
+   margin-top: 14px;
+}
+
+.about__using--list--desc {
+   text-align: center;
+   font-size: 16px;
+   line-height: 172.52%;
+}
+
+.about .viewmore {
+   margin-top: 35px;
+}
+
+/*ここからイベント*/
+.top__event {
+   margin-bottom: 189.65px;
+}
+
+.event__box {
+   width: 100%;
+   height: 504px;
+   background-color: blue;
+}
+
+.event__title {
+   max-width: 83%;
+   margin: 0 auto;
+}
+
+.event__head {
+   font-size: 100px;
+   font-family: Arial Black, Helvetica, sans-serif;
+   font-weight: 900;
+   line-height: 1;
+}
+
+.event__head--sub {
+   font-family: 'Arial Black';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 35px;
+}
+
+.event .viewmore {
+}
+
+/*ここからメニュー*/
+
+.menu__title {
+   max-width: 83%;
+   margin: 0 auto;
+}
+
+.menu__head {
+   font-size: 100px;
+   font-family: Arial Black, Helvetica, sans-serif;
+   font-weight: 900;
+   line-height: 1;
+}
+
+.menu__head--sub {
+   font-family: 'Arial Black';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 35px;
+}
+
+.menu__list {
+   display: flex;
+   max-width: 83%;
+   margin: 0 auto;
+}
+
+.menu__list li {
+   width: 250px;
+   height: 250px;
+   background-color: grey;
+   margin-right: 88px;
+}
+
+.menu__list li img {
+   margin: 31px auto;
+}
+
+.menu__list li:last-child {
+   margin-right: 0;
+}
+
+/*ここからアクセス*/
+.top__access {
+   width: 100%;
+   margin-top: 200px;
+   margin-bottom: 180px;
+}
+
+.access__title {
+   text-align: right;
+   max-width: 83%;
+   margin: 0 auto;
+}
+
+.access__head {
+   font-size: 100px;
+   font-family: Arial Black, Helvetica, sans-serif;
+   font-weight: 900;
+   line-height: 1;
+}
+
+.access__head--sub {
+   font-family: 'Arial Black';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 35px;
+}
+
+.access__desc {
+   max-width: 83%;
+   margin: 0 auto;
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+}
+
+.access__desc--title {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+}
+
+.access__desc p {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+/*ここからコンタクト？*/
+.top__contact {
+   max-width: 83%;
+   margin: 0 auto;
+}
+
+.contact__head {
+   font-size: 100px;
+   font-family: Arial Black, Helvetica, sans-serif;
+   font-weight: 900;
+   line-height: 1;
+}
+
+.contact__head--sub {
+   font-family: 'Arial Black';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 35px;
+}
+
+.contact__desc {
+   border: solid #babdbf 3px;
+   text-align: center;
+   margin-top: 39px;
+   margin-bottom: 200px;
+   padding-top: 75px;
+   padding-bottom: 72px;
+}
+
+.contact__desc--sub {
+   margin-bottom: 47px;
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.contact__desc--button {
+   width: 558.74px;
+   height: 75px;
+   padding-top: 23px;
+   padding-bottom: 19px;
+}
+
+.follow {
+   height: 440px;
+   background: url('../img/eqp_amp_hk.JPG') center center / cover;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   font-family: 'Arial Black';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 80px;
+   line-height: 113px;
+   padding-top: 107px;
+   position: relative;
+}
+.follow p {
+   z-index: 1;
+}
+.follow::before {
+   position: absolute;
+   content: '';
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sns__box {
+   z-index: 1;
+   display: flex;
+   justify-content: space-between;
+   margin: 20px auto;
+   width: 415px;
+}
+.sns__box img {
+   width: 80px;
+}
+
+.footer {
+   background: #402d2d center center / cover;
+}
+
+.footer_item {
+   max-width: 83%;
+   margin: 0 auto;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+
+.footer__logo {
+   width: 319.15px;
+   height: 70px;
+}
+
+.footer__tel {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.footer__time {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.footer__copywrite {
+   text-align: center;
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+/*ここまでがTOP*/
+
+/*ここから各ページのタイトル*/
+.title {
+   position: relative;
+}
+.title .about__head {
+   text-align: right;
+   margin: 0;
+   position: absolute;
+   top: 500px;
+   right: 126px;
+}
+.title .about__head--sub {
+   text-align: right;
+   position: absolute;
+   top: 600px;
+   right: 126px;
+}
+
+/*ここからメニュー用のコード*/
+.header__nav--logo {
+   position: absolute;
+   padding-top: 17px;
+   padding-left: 50px;
+}
+
+/*ここからコンタクト用のコード*/
+
+.about {
+   max-width: 83%;
+   margin: 0 auto;
+}
+
+.about__head {
+   margin-top: 200px;
+}
+
+.contact_form {
+   max-width: 83%;
+   margin: 100px auto;
+   background-color: #f5f5f5;
+   padding: 100px 172px;
+   color: #262626;
+   font-size: 16px;
+   border-radius: 10px;
+}
+
+.form_item {
+   margin-top: 30px;
+   font-weight: bold;
+}
+.form_checkbox {
+   display: flex;
+   margin-top: 30px;
+}
+.form_box {
+   width: 100%;
+   height: 50px;
+   margin-top: 10px;
+   padding-left: 20px;
+   border: none;
+   background-color: #babdbf;
+   border-radius: 5px;
+}
+
+.btn {
+   margin-top: 50px;
+   text-align: center;
+}
+
+button {
+   padding: 10px 80px;
+   border: 0;
+   background-color: #babdbf;
+   border-radius: 5px;
+}
